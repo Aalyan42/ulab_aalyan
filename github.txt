@@ -1,0 +1,27 @@
+Problem 1.1
+1. The pwd command will show you where you are in the directory, and in which subfolder.
+2. ls - patterns.txt and symmetry.py will show up when we input ls
+3. Nano patterns.txt will open the text file and allow you to edit it
+4. The cat command will let you view the file by dipslaying the content in the terminal - cat patterns.txt
+5. diff patterns.txt symmetry.txt will show us the differences in the lines between the 2 files
+6. Assuming already in music: mv patterns.txt ~/math/calculus/
+7. rm ~/math/geometry/triangle.txt
+8. Cd ../math
+9. Git init while inside the directory 
+10. Git remote add origin with the ssh url from the repo
+11. cp ~/music/symmetry.txt ~/math/
+12. The command would be git status, and the file is not tracked as we have not git added it
+
+
+13. Only file - git add symmetry.txt
+All files - git add .
+14. Yes, now if we do git status its currently being tracked. git restore --staged symmetry.txt will unstage the file but not remove it
+15. Git commit -m “Whatever message you want to put about what is being committed”
+16. Git push origin main, we are going to push to main because that is what were working on 
+17. Git branch applied_math
+18. Git checkout applied_math
+19. Git add . -> git commit -m “message” -> git push origin applied_math; if we moved back without committing the changes it would not save them
+20. Git branch, the highlighted in green branch is the one were currently working in 
+21. Git checkout main (or name of original branch)
+22. Can use the git merge command
+23. Screenshot.
